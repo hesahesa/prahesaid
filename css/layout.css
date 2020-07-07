@@ -357,6 +357,22 @@ ul#nav li.current a { color: #11ABB0; }
   100% { width: 80%;  }
 }
 
+.golang {
+   width: 80%;
+   -moz-animation: golang 2s ease;
+   -webkit-animation: golang 2s ease;
+}
+
+@-moz-keyframes golang {
+0%   { width: 0px;  }
+100% { width: 80%;  }
+}
+
+@-webkit-keyframes golang {
+0%   { width: 0px;  }
+100% { width: 80%;  }
+}
+
 .csharp {
   	width: 75%;
   	-moz-animation: csharp 2s ease;

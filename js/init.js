@@ -140,7 +140,7 @@
    $.ajax({
 
 	      type: "GET",
-	      url: "https://public-api.wordpress.com/rest/v1/sites/hesahesa.wordpress.com/posts/?number=3",
+	      url: "https://public-api.wordpress.com/rest/v1/sites/blog.prahesa.id/posts/?number=3",
 	      success: function(msg) {
 			  var posts = msg.posts;
 			  for (var i = 0; i < posts.length; i++) {
